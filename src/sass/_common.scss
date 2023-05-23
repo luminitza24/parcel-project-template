@@ -1,1 +1,59 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+.gallery{
+    list-style-type: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:30px;
+    max-width:1200px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:200px;}
+
+    .gallery__image {
+        max-width: 320px;
+    }
+
+
+.vimeo{
+    margin: 0 auto;
+    display:block;
+    margin-bottom:200px;
+}
+
+.feedback-form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    margin-left: auto;
+    margin-right:auto;
+    border: none;
+    outline: none;
+}
+
+label {
+    display: flex;
+    font-size:16px;
+    padding-bottom: 15px;
+}
+
+input {
+    margin-top:10px;
+    border:none;
+    border-bottom:1px solid #212121;
+    font-size:16px;
+height: 50px;
+  width: 300px;
+}
+
+textarea {
+    margin-top:10px;
+    border-bottom:1px solid #212121;
+    resize: none;
+    font-size:16px;
+    width: 300px;
+
+}
+button{
+    max-width: 400px;}
